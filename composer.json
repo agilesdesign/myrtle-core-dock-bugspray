@@ -1,0 +1,22 @@
+{
+    "name": "agilesdesign/myrtle-core-dock-bugspray",
+    "description": "Core Debug Dock for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "require": {
+        "agilesdesign/myrtle-docks": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Myrtle/Core/Docks"
+        ],
+        "psr-4": {
+            "Myrtle\\Core\\BugSpray\\": "src/BugSpray"
+        }
+    }
+}
