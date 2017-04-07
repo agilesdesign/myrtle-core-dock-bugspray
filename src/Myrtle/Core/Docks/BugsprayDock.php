@@ -53,8 +53,8 @@ class BugsprayDock extends Dock
     public function configPaths()
     {
         return [
-            'abilities' => dirname(__DIR__, 2) . '/config/abilities.php',
-            'docks.' . self::class => dirname(__DIR__, 2) . '/config/docks/bugspray.php',
+            'abilities' => dirname(__DIR__, 3) . '/config/abilities.php',
+            'docks.' . self::class => dirname(__DIR__, 3) . '/config/docks/bugspray.php',
         ];
     }
 
